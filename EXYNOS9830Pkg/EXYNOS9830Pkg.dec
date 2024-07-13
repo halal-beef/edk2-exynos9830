@@ -67,3 +67,6 @@
   gEXYNOS9830PkgTokenSpaceGuid.GppBase|0|UINT32|0x0000a607
   gEXYNOS9830PkgTokenSpaceGuid.GpqBase|0|UINT32|0x0000a608
   gEXYNOS9830PkgTokenSpaceGuid.GpvBase|0|UINT32|0x0000a609
+
+  # Timer
+  gArmTokenSpaceGuid.PcdArmArchTimerFreqInHz|0|UINT32|0x0000a700

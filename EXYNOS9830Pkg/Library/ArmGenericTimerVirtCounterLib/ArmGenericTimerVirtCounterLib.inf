@@ -20,6 +20,7 @@
   ArmGenericTimerVirtCounterLib.c
 
 [Packages]
+  EXYNOS9830Pkg/EXYNOS9830Pkg.dec
   MdePkg/MdePkg.dec
   ArmPkg/ArmPkg.dec
 
