@@ -67,11 +67,11 @@ static ARM_MEMORY_REGION_DESCRIPTOR_EX gDeviceMemoryDescriptorEx[] = {
     {"CPU Vectors",       0x80C40000, 0x00010000, AddMem, SYS_MEM, SYS_MEM_CAP,  BsCode, WRITE_BACK},
     {"HLOS 1",            0x80C50000, 0x2AB00000, AddMem, SYS_MEM, SYS_MEM_CAP, Conv, WRITE_BACK_XN},
     {"UEFI FD",           0x90000000, 0x00200000, AddMem, SYS_MEM, SYS_MEM_CAP, BsCode, WRITE_BACK},
-    {"HLOS 2",            0x90200000, 0x31000000, AddMem, SYS_MEM, SYS_MEM_CAP, BsCode, WRITE_BACK},
+    {"HLOS 2",            0x90200000, 0x31000000, AddMem, SYS_MEM, SYS_MEM_CAP, Conv, WRITE_BACK},
 
     // Memory Hole: 0xBAB00000 -> 0xC1200000 (0x6700000)
 
-    {"HLOS 3",            0xC1200000, 0x01E00000, AddMem, SYS_MEM, SYS_MEM_CAP, BsCode, WRITE_BACK},
+    {"HLOS 3",            0xC1200000, 0x01E00000, AddMem, SYS_MEM, SYS_MEM_CAP, Conv, WRITE_BACK},
     {"SEC Log",           0xC3000000, 0x00080000, AddMem, SYS_MEM, SYS_MEM_CAP, Reserv, WRITE_BACK},
     {"HLOS 4",            0xC3080000, 0x1CF80000, AddMem, SYS_MEM, SYS_MEM_CAP, Conv,   WRITE_BACK},
 
